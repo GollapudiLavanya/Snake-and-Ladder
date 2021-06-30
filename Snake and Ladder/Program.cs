@@ -50,8 +50,8 @@ namespace Snake_and_Ladder
                 int player_move = Player_Move_Option(player_Roll_Dice);
                 player_Next_Position = player_position + player_move;
 
-                if (player_Next_Position < STAST)
-                    player_position = STAST;
+                if (player_Next_Position < START)
+                    player_position = START;
                 else
                     player_position = player_Next_Position;
             }
